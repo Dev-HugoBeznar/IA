@@ -11,3 +11,8 @@ https://github.com/puigalex/AMP-Tech.git
 
 aunque AVISO su repositorio esta obsoleto y no se puede usar con las 
 versiones actuales de tensorflow ni python
+
+comados antes de usar:
+
+pip install tensorflow   
+pip install scipy   
