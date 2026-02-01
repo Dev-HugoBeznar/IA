@@ -18,11 +18,11 @@ def predict(file):
     result = array[0]
     answer = np.argmax(result)
     
-    clases = ['catedral', 'generalife', 'palacio_de_carlos_v', 'patio_de_los_leones', 'plaza_de_bib-rambla']
+    clases = ["desconocido", 'catedral de granada', 'generalife', 'palacio_de_carlos_v', 'patio_de_los_leones', 'plaza_de_bib-rambla']
     
     if answer < len(clases):
         print(f"Predicción: {clases[answer]}")
     
     return answer
 
-predict('./Data/validacion/dataset_patio_de_los_leones_granada/img_00016.jpg')
+predict('C:/Users/hugog/Pictures/Screenshots/prueba.png')
